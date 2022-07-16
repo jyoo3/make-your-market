@@ -1,0 +1,229 @@
+/*-----------------header---------------*/
+nav{
+  background: mediumseagreen;
+  height:50px;
+  width: 100%;
+}
+nav ul{
+  float: right;
+  text-align: center;
+  margin-top:10px;
+  margin-right: 25px;
+  /*width:100%;*/
+  list-style: none;
+  position: relative;
+}
+.header{
+    height:80px;
+    width:100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(2, 41, 48);
+    color:white;
+
+    padding-top:15px;
+}
+#headermenu{
+    margin-left: 300px;
+   
+    width:100%;
+}
+nav ul li{
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor:pointer;
+  margin: 2px 50px 15px 5px;
+  height: 30px;
+  width: 130px;
+  border-radius: 5px;
+  
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+nav ul li:hover{
+  background-color: white;
+}
+
+nav ul ul{
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top .3s;
+}
+
+nav ul li:hover ul{
+  background-color:white;
+  top: -8px;
+  padding:10px 10px;
+  opacity:1;
+  color:black;
+  visibility:visible;z-index:100;
+}
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 120px;
+  float: none;
+  display: list-item;
+  font-family: sans-serif;
+  font-weight: 200;
+  border-bottom: 3px solid black;
+  
+}
+nav ul ul li:hover{
+  background-color:mediumseagreen;
+  color:black;
+}
+.dropdown{
+  margin-right: -5px;
+}
+.dropdown li{
+    height:50px;
+
+}
+
+
+
+/*-------------------------products--------class=\"img-fluid card-img-top\"---------------*/
+
+
+ 
+  
+  /*padding: 10px;
+    /*margin-left: auto;
+    margin-right: auto;
+   
+    padding:20px;*/
+
+.bb{
+    margin-top:30px;
+    display:inline;
+    border: 2px solid black;
+  border-radius: 5px;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:mediumseagreen;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  position:sticky;
+}
+.card {
+    margin:10px;
+    border-radius: 5px;
+    border:5px solid rgb(247, 242, 242);
+    float:left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:inline;
+    height: 400px;
+    width: 230px;
+    margin: 30px;
+    font-family:sans-serif;
+    
+  }
+
+.name{
+    font-family: sans-serif;
+    font-style: italic;
+    
+
+}
+.pp{
+    margin-left:5px;
+}
+#cart_count{
+  text-align:center;
+  padding:0 0.9rem 0.1rem 0.9rem;
+  border-radius: 3rem;
+}
+
+/*------------footer----------------*/
+.footer{
+  width:100%;
+  height:80%;
+  background:#00121b;
+  display: block;
+
+}
+.container{
+  width:95%;
+  margin:auto;
+  padding: 30px 10px;
+  display:flex;
+  flex-wrap:wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.column{
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+h2{
+  padding:10px 0px;
+  font-size: 24px;
+  color:cornsilk;
+  text-transform: uppercase;
+}
+.column p{
+  color:darkgrey;
+  font-size:16px;
+  text-align:justify;
+  line-height: 25px;
+}
+.column ul{
+  list-style:none;
+  color:#fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.column ul a{
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+.column ul a:hover{
+  color:indianred;
+}
+.column ul li{
+  margin: 10px 0;
+  height:25px
+}
+.column li i{
+  margin-right:20px;
+}
+.social-widget{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.social-widget a{
+  text-decoration: none;
+}
+.social-widget i{
+  height: 15px;
+  width: 15px;
+  margin: 20px 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+  transition:0.3s;
+}
+.social-widget i:hover{
+  background:grey;
+}
+.footer-bottom{
+  padding: 10px;
+  background: #3d545f;
+  color: #fff;
+  font-size: 12px;
+}

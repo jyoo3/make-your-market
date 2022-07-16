@@ -1,0 +1,69 @@
+body {
+	background-color: #004552;
+	color:antiquewhite;
+	margin:0;
+	padding:0;
+  }
+  
+label
+{
+	width:170px;
+	display:inline-flex;
+}
+  
+.first{
+	color:white;
+	text-align: center;
+  }
+.form
+{   
+	width: 30%;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background-color:white;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+.border
+{
+	border: #003300 solid 1px;
+}
+
+
+.form h1
+{
+	color: #003300;
+	margin-bottom: 30px;
+}
+
+.input-box
+{
+border-radius: 20px;
+padding: 10px;
+margin: 10px 0;
+width: 20%;
+border: 1px solid #999;
+outline:none;
+text-align: center;
+}
+.radio{
+	
+	border:2px solid red;
+}
+.rad{
+	border:2px solid red;
+}
+.details
+{
+	border:#1c2f5e solid 1px;
+    border-collapse: collapse;
+	border-spacing: 15px;
+}
+.sign a{
+text-decoration:underline;
+color:white;
+}
+td
+{
+	border: none;
+}

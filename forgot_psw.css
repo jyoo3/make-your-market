@@ -1,0 +1,125 @@
+body {
+    background-image: url('2-2-2-2foodgroups_vegetables_detailfeature.jpg');
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+  /* css class for the login generated errors */
+  *{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image:url("images/login_background.jpg");
+    background-position: center;
+    background-size: cover;
+    /*box-sizing: border-box;*/
+    font-family: sans-serif;
+}
+.login-header{
+    height: 80px;
+    background-color: mediumseagreen;
+}
+#headermenu{
+    margin-top:-18px;
+}
+#headermenu li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    float: right;
+    margin: 25px 50px 5px 5px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+#headermenu li a{
+    text-decoration: none;
+    color:black;
+}
+#headermenu li:hover{
+    background-color:rgb(242, 247, 245);
+    border-radius: 5px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.6)
+    
+}
+  .profilepress-reset-status {
+    width: 400px;
+    text-align: center;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: medium none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 8px 5px;
+    margin: auto;
+  }
+  
+  .memo-reset-success {
+     width: 400px;
+    text-align: center;
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: medium none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 8px 5px;
+    margin: auto;
+  }
+  
+  #sc-password {
+    background: #f0f0f0;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 2%;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+  }
+  
+  #sc-password h1 {
+    background:mediumseagreen;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+  }
+  
+  div#sc-password .sc-container {
+    background: #f0f0f0;
+    padding: 6% 4%;
+  }
+  
+  div#sc-password input[type="email"],
+  div#sc-password input[type="text"],
+  div#sc-password input[type="password"] {
+    width: 92%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 4%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 95%;
+    color: #555;
+  }
+  
+  div#sc-password input[type="submit"] {
+    width: 100%;
+    background:mediumseagreen;
+    border: 0;
+    padding: 4%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+  }
+  
+  div#sc-password input[type="submit"]:hover {
+    background: #2288bb;
+  }
+  

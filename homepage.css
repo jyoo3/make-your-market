@@ -1,0 +1,327 @@
+nav{
+    background: mediumseagreen;
+    height:50px;
+    width: 100%;
+  }
+  nav ul{
+    float: right;
+    text-align: center;
+    margin-top:10px;
+    margin-right: 25px;
+    /*width:100%;*/
+    list-style: none;
+    position: relative;
+  }
+  .header{
+      height:80px;
+      width:100%;
+      text-align: center;
+      font-family: sans-serif;
+      font-weight: bold;
+      background-color: rgb(2, 41, 48);
+      color:white;
+
+      padding-top:15px;
+  }
+  #headermenu{
+      margin-left: 300px;
+     
+      width:100%;
+  }
+  nav ul li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor:pointer;
+    margin: 2px 50px 15px 5px;
+    height: 30px;
+    width: 130px;
+    border-radius: 5px;
+    
+  }
+  nav ul li a{
+      color:black;
+      text-decoration: none;
+  }
+  nav ul li a:hover{
+    color:black;
+  }
+  nav ul li:hover{
+    background-color: white;
+}
+
+  nav ul ul{
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+  }
+
+  nav ul li:hover ul{
+    background-color:white;
+    top: -8px;
+    padding:10px 10px;
+    opacity:1;
+    color:black;
+    visibility:visible;z-index:100;
+  }
+  nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 120px;
+    float: none;
+    display: list-item;
+    font-family: sans-serif;
+    font-weight: 200;
+    border-bottom: 3px solid black;
+    
+  }
+  nav ul ul li:hover{
+    background-color:mediumseagreen;
+    color:black;
+  }
+  .dropdown{
+    margin-right: -5px;
+  }
+  .dropdown li{
+      height:50px;
+  }
+/*.login-header{
+    height: 90px;
+    background-color: mediumseagreen;
+}
+.login-header #headermenu li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    float: right;
+    margin: 20px 50px 5px 5px;
+    list-style: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-shadow: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+.login-header #headermenu li:hover{
+    background-color: rgba(59, 230, 110, 0.795);
+    border-radius: 50%;
+    transition: 0.088s;
+    transform: scale(1.15);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.6)
+    
+}*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img{
+    width: 100%;
+    height: 400px;
+}
+/* Caption text */
+.slideshow-container .text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.slideshow-container .numbertext {
+  color: #272626;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/*    shop by category       */
+.category table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:#00121b;
+}
+.category{
+    margin-top: 30px;
+    text-align: center;
+}
+.category table{
+    margin-top: 20px;
+    border-style:none;
+}
+.category table tr td{
+    margin: 0px 40px;
+}
+.category table tr td img{
+    height: 180px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px 50px;
+}
+.category table tr td a{
+    color: black;
+    text-decoration: none;
+}
+
+/*-------------------------products-----------------------*/
+
+img{
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width:100px;
+    padding:20px;
+}
+.bb{
+    margin-top:30px;
+    display:inline;
+    border: 2px solid black;
+  border-radius: 5px;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:mediumseagreen;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  position:sticky;
+}
+.card {
+    margin:10px;
+    border-radius: 5px;
+    border:5px solid rgb(247, 242, 242);
+    float:left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:-moz-inline-box;
+    height: 350px;
+    width: 230px;
+    margin: 30px;
+    font-family:sans-serif;
+    
+  }
+
+.name{
+    font-family: sans-serif;
+    font-style: italic;
+    
+
+}
+.pp{
+    margin-left:5px;
+}
+
+#cart_count{
+  text-align:center;
+  padding:0 0.9rem 0.1rem 0.9rem;
+  border-radius: 3rem;
+}
+/*----------------------------end of products---------------------------------*/
+
+.footer{
+    width:100%;
+    height:80%;
+    background:#00121b;
+    display: block;
+
+}
+.container{
+    width:95%;
+    margin:auto;
+    padding: 30px 10px;
+    display:flex;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.column{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+h2{
+    padding:10px 0px;
+    font-size: 24px;
+    color:cornsilk;
+    text-transform: uppercase;
+}
+.column p{
+    color:darkgrey;
+    font-size:16px;
+    text-align:justify;
+    line-height: 25px;
+}
+.column ul{
+    list-style:none;
+    color:#fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.column ul a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.column ul a:hover{
+    color:indianred;
+}
+.column ul li{
+    margin: 10px 0;
+    height:25px
+}
+.column li i{
+    margin-right:20px;
+}
+.social-widget{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.social-widget a{
+    text-decoration: none;
+}
+.social-widget i{
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid grey;
+    transition:0.3s;
+}
+.social-widget i:hover{
+    background:grey;
+}
+.footer-bottom{
+    padding: 10px;
+    background: #3d545f;
+    color: #fff;
+    font-size: 12px;
+}
